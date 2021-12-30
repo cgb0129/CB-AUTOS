@@ -1,5 +1,22 @@
-.pseudo{
-    color: red;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-}
+@import "variables";
+
+@import "body";
+
+@import "header";
+
+@import "props";
+
+@import "nuestrosproceso";
+
+@import "vehiculosDestacados";
+
+@import "PropText";
+
+@import "map";
+
+@import "acercadenosotros";
+
+@import "formulario";
+
+@import "footer";
+

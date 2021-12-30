@@ -1,0 +1,28 @@
+/* PROPIEDADES PARA TEXTOS */
+
+.titulo{
+    color: $color_black;
+    font-weight: normal;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.centrar{
+    text-align: center;
+}
+
+.negrita{
+    color: $color_black;
+    font-weight: bold;
+}
+
+.tamaño{
+    font-size: 40px;
+}
+
+.cursiva{
+    color: $color_black;
+    font-style: italic;
+}

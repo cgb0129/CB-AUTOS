@@ -1,0 +1,153 @@
+/* ACERCA DE NOSOTROS */
+.cuadro{
+    text-align: center;
+    color: black;
+    font-style: italic;
+        h1{
+            text-align: center;
+            font-size: 35%;
+        }
+ }
+
+
+ 
+ .div-1{
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    
+  
+ 
+ }
+ 
+ .div2{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+ 
+ }
+ 
+ .div2 ul li{
+    color: gray;
+ }
+ 
+ .contenedorAcerca{
+    padding: 4%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 5%;
+    justify-content: center;
+ 
+ }
+ 
+ 
+ .contenedorAcerca div span{
+    font-size: 40px;
+ }
+ 
+ .contenedorAcerca div h3{
+    font-size: 17px;
+    text-align: left;
+    color: #222222;
+    margin-bottom: 14px;
+    letter-spacing: 0.5px;
+ }
+ 
+ .contenedorAcerca div p{
+    color: $color_black;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+ 
+ }
+ 
+ .contenedorAcerca div a{
+    color: #ff5400;
+ }
+ 
+ 
+ 
+ @media screen and (max-width: 1024px) {
+    .contenedorAcerca{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+    }
+    
+ }
+ 
+ @media screen and (max-width: 960px) {
+    .contenedorAcerca{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+    }
+ 
+    .contenedorAcerca div span{
+        display: flex;
+        padding: 3px;
+        font-size: 40px;
+        justify-content: center;
+    }
+    
+    .contenedorAcerca div h3{
+        font-size: 17px;
+        text-align: left;
+        color: #222222;
+        margin-bottom: 14px;
+        letter-spacing: 0.5px;
+        text-align: center;
+    }
+    
+    .contenedorAcerca div p{
+        color: $color_black;
+        letter-spacing: 0.5px;
+        margin-bottom: 30px;
+        text-align: center;
+    
+    }
+    
+    .contenedorAcerca div a{
+        color: #ff5400;
+        display: flex;
+        justify-content: center;
+    }
+ }
+ 
+ @media screen and (max-width: 480px) {
+    .contenedorAcerca{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4 , 1fr);
+        justify-content: center;
+    }
+ 
+    .contenedorAcerca div span{
+        display: flex;
+        padding: 3px;
+        font-size: 40px;
+        justify-content: center;
+    }
+    
+    .contenedorAcerca div h3{
+        font-size: 17px;
+        text-align: left;
+        color: $color_black;
+        margin-bottom: 14px;
+        letter-spacing: 0.5px;
+        text-align: center;
+    }
+    
+    .contenedorAcerca div p{
+        color: $color_black;
+        letter-spacing: 0.5px;
+        margin-bottom: 30px;
+        text-align: center;
+    
+    }
+    
+    .contenedorAcerca div a{
+        color: #ff5400;
+        display: flex;
+        justify-content: center;
+    }
+ }
