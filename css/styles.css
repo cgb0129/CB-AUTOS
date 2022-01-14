@@ -283,6 +283,7 @@ section {
 .div2 ul li {
   color: gray; }
 
+/* MIXIN*/
 .contenedorAcerca {
   padding: 4%;
   display: grid;
@@ -296,17 +297,28 @@ section {
 .contenedorAcerca div h3 {
   font-size: 17px;
   text-align: left;
-  color: #222222;
   margin-bottom: 14px;
   letter-spacing: 0.5px; }
 
 .contenedorAcerca div p {
-  color: black;
   letter-spacing: 0.5px;
   margin-bottom: 30px; }
 
-.contenedorAcerca div a {
-  color: #ff5400; }
+.first {
+  background-color: white;
+  color: black; }
+
+.second {
+  background-color: #ff5400;
+  color: white; }
+
+.third {
+  background-color: white;
+  color: black; }
+
+.fourth {
+  background-color: #ff5400;
+  color: white; }
 
 @media screen and (max-width: 1024px) {
   .contenedorAcerca {

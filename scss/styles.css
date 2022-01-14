@@ -431,6 +431,7 @@ section div a {
   color: gray;
 }
 
+/* MIXIN*/
 .contenedorAcerca {
   padding: 4%;
   display: -ms-grid;
@@ -450,18 +451,17 @@ section div a {
 .contenedorAcerca div h3 {
   font-size: 17px;
   text-align: left;
-  color: #222222;
   margin-bottom: 14px;
   letter-spacing: 0.5px;
 }
 
 .contenedorAcerca div p {
-  color: black;
   letter-spacing: 0.5px;
   margin-bottom: 30px;
 }
 
-.contenedorAcerca div a {
+.first {
+  background-color: white;
   color: #ff5400;
 }
 

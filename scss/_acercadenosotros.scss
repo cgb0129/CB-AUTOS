@@ -32,6 +32,20 @@
     color: gray;
  }
  
+
+ /* MIXIN*/
+
+ $cuadro1: white;
+ $cuadro2:#ff5400;
+ $color1:black;
+ $color2: white;
+
+ @mixin estiloDiv($cuadro,$color){
+    background-color: $cuadro;
+    color: $color;
+ }
+
+
  .contenedorAcerca{
     padding: 4%;
     display: grid;
@@ -41,7 +55,6 @@
  
  }
  
- 
  .contenedorAcerca div span{
     font-size: 40px;
  }
@@ -49,23 +62,32 @@
  .contenedorAcerca div h3{
     font-size: 17px;
     text-align: left;
-    color: #222222;
     margin-bottom: 14px;
     letter-spacing: 0.5px;
  }
  
  .contenedorAcerca div p{
-    color: $color_black;
     letter-spacing: 0.5px;
     margin-bottom: 30px;
  
  }
  
- .contenedorAcerca div a{
-    color: #ff5400;
- }
- 
- 
+.first{
+    @include estiloDiv($cuadro1,$color1)
+}
+
+.second{
+    @include estiloDiv($cuadro2,$color2)
+}
+
+.third{
+    @include estiloDiv($cuadro1,$color1)
+}
+
+.fourth{
+    @include estiloDiv($cuadro2,$color2)
+}
+
  
  @media screen and (max-width: 1024px) {
     .contenedorAcerca{
