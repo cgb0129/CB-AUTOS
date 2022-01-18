@@ -235,6 +235,30 @@ section {
     grid-template-columns: 1fr;
     justify-content: center; } }
 
+.bienvenidos {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+.info {
+  text-align: center;
+  font-size: medium;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+.marco {
+  padding: 4%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 5%;
+  justify-content: center; }
+
+.marcoItem {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+  .marcoItem span {
+    color: orangered;
+    font-family: sans-serif; }
+  .marcoItem p {
+    color: black; }
+
 /* PROPIEDADES PARA TEXTOS */
 .titulo {
   color: black;
@@ -426,11 +450,12 @@ footer {
 
 .row {
   margin-top: 20px;
-  display: flex; }
+  display: flex;
+  flex-wrap: nowrap; }
 
 .row img {
-  width: 34px;
-  height: 34px; }
+  width: 50px;
+  height: 40px; }
 
 .row label {
   margin-top: 5px;
@@ -448,7 +473,7 @@ footer {
   display: flex; }
 
 .row2 img {
-  width: 36px;
+  width: 40px;
   height: 36px; }
 
 .row2 label {
